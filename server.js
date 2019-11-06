@@ -16,7 +16,7 @@ server.use(logger)
 server.use('/users', userRouter);
 
 server.get('/', (req, res) => {
-  res.json(`Let's write some middleware!`)
+  res.json(`enter your routes!!!!!`)
 });
 
 server.get('/posts', (req, res) => {
